@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+​
+<title>
+Roman Vaseruk
+</title>
+</head>
+<body>
+<div><img src ='http://www.edmonton.ca/attractions_events/documents/Images/BigPicturePrize2_DickTam.jpg'id="DOD"/></div>
+<button onclick="like(0)">
+Like
+</button>
+<button onclick="dislike(0)">
+Dislike
+</button>
+​<div><img src = 'http://i.telegraph.co.uk/multimedia/archive/03235/potd-husky_3235255k.jpg' id="ziki"/></div>
+<button onclick="like(1)">
+Like
+</button>
+<button onclick="dislike(1)">
+Dislike
+</button>
+​<div><img src ='http://cdn1.matadornetwork.com/blogs/1/2015/04/lion-photo.jpg'id="KO"/></div>
+<button onclick="like(2)">
+Like
+</button>
+<button onclick="dislike(2)">
+Dislike
+</button>
+​
+<script>
+var number = [0,0,0]
+   like = function(y) {
+    number[y] = number[y] + 1;
+     console.log(number);
+};
+var numer = [0,0,0]
+   dislike = function (n) {
+    numer[n] = numer[n] + 1;
+     console.log(numer);
+};
+</script>
+​
+​
+​
+</body>
+</html>
