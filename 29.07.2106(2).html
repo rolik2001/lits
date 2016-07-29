@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>
+ Roman Vaseruk
+ </title>
+<head>
+  Roman Vaseruk
+</head>
+<script>
+var lolz;
+  function onload() {
+      lolz = document.getElementById('lolz');
+  };
+var m = 1000
+var n = 0
+var y = Math.floor(Math.random()*m+n);
+function kk() {
+         if (lolz>y)
+           alert("Ви назвали число більше");
+         if (lolz<y)
+          alert("Ви назвали число меньше");
+         if (lolz=y)
+            alert("Ви вгадали");
+}
+</script>
+<body>
+  <input type="text" name="enter" class="enter" value="" id="lolz"/>
+  <input type="button" value="click" OnClick="kk()"/>
+
+
+  </body>
+  </html>
